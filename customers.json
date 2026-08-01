@@ -1,0 +1,86 @@
+{
+    "customers": [
+        {
+            "customerID": "1",
+            "purchases": [
+                {
+                    "date": "1234-1-1",
+                    "products": [],
+                    "purchaseID": "123",
+                    "totalPaid": 0.0
+                }
+            ]
+        },
+        {
+            "customerID": "C02",
+            "purchases": [
+                {
+                    "date": "2025-12-11",
+                    "products": [
+                        {
+                            "price": 400.0,
+                            "productID": "P05",
+                            "quantity": 1
+                        },
+                        {
+                            "price": 250.0,
+                            "productID": "P01",
+                            "quantity": 1
+                        },
+                        {
+                            "price": 300.0,
+                            "productID": "P02",
+                            "quantity": 1
+                        }
+                    ],
+                    "purchaseID": "P04",
+                    "totalPaid": 950.0
+                }
+            ]
+        },
+        {
+            "customerID": "C01",
+            "purchases": [
+                {
+                    "date": "2025-12-12",
+                    "products": [
+                        {
+                            "price": 250.0,
+                            "productID": "P01",
+                            "quantity": 1
+                        },
+                        {
+                            "price": 300.0,
+                            "productID": "P02",
+                            "quantity": 2
+                        }
+                    ],
+                    "purchaseID": "P01",
+                    "totalPaid": 850.0
+                }
+            ]
+        },
+        {
+            "customerID": "C03",
+            "purchases": [
+                {
+                    "date": "2025-12-13",
+                    "products": [
+                        {
+                            "price": 250.0,
+                            "productID": "P01",
+                            "quantity": 1
+                        },
+                        {
+                            "price": 300.0,
+                            "productID": "P04",
+                            "quantity": 1
+                        }
+                    ],
+                    "purchaseID": "P03",
+                    "totalPaid": 550.0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "leaves": [
+        {
+            "days": 2,
+            "id": "MM101",
+            "priority": 2,
+            "reason": "Health issues",
+            "role": "Mid-Level Manager"
+        },
+        {
+            "days": 1,
+            "id": "MD.EMP003",
+            "priority": 3,
+            "reason": "Personal Reasons",
+            "role": "Employee"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "department": "Franchise",
+    "employees": [
+        {
+            "email": "fd.empl@gmail.com",
+            "id": "FD.EMP001",
+            "name": "Lucas",
+            "role": "Employee",
+            "salary": 39000.0
+        },
+        {
+            "email": "fd.emp002@gmail.com",
+            "id": "FR.EMP002",
+            "name": "Francklin",
+            "role": "Employee",
+            "salary": 70000.0
+        }
+    ],
+    "manager": {
+        "department": "Franchise",
+        "email": "elfm106.2@gmail.com",
+        "id": "FM106.2",
+        "managerLevel": "Mid-Level",
+        "name": "Ell",
+        "role": "Manager",
+        "salary": 50000.0
+    }
+}

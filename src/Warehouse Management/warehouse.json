@@ -1,0 +1,65 @@
+{
+    "finance": {
+        "expenses": [
+            {
+                "amount": 1200.0,
+                "date": "14-05-24",
+                "desc": "transport"
+            }
+        ],
+        "total_transport_cost": 1200.0
+    },
+    "incoming": [
+        {
+            "name": "soap",
+            "price": 240.0,
+            "productID": "p1",
+            "quantity": 1,
+            "weight": 1.0
+        },
+        {
+            "name": "balls",
+            "price": 300.0,
+            "productID": "p2",
+            "quantity": 5,
+            "weight": 1.0
+        }
+    ],
+    "stores": [
+        {
+            "name": "s1",
+            "storeID": "0"
+        },
+        {
+            "name": "s1",
+            "storeID": "1"
+        }
+    ],
+    "trucks": [
+        {
+            "cargo": [
+                {
+                    "productID": "p1",
+                    "qty": 2
+                },
+                {
+                    "productID": "p1",
+                    "qty": 2
+                }
+            ],
+            "current_units": 4,
+            "current_weight": 4.0,
+            "max_units": 5,
+            "max_weight": 60.0,
+            "truckID": "T1"
+        },
+        {
+            "cargo": [],
+            "current_units": 0,
+            "current_weight": 0.0,
+            "max_units": 6,
+            "max_weight": 40.0,
+            "truckID": "T2"
+        }
+    ]
+}

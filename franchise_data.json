@@ -1,0 +1,92 @@
+{
+    "franchiseID": "F001",
+    "inventory": [
+        {
+            "price": 250.0,
+            "productID": "P01",
+            "quantity": 95,
+            "sales": 5,
+            "threshold": 10,
+            "totalQuantity": 100
+        },
+        {
+            "price": 125.0,
+            "productID": "P0123",
+            "quantity": 125,
+            "sales": 0,
+            "threshold": 2,
+            "totalQuantity": 125
+        },
+        {
+            "price": 300.0,
+            "productID": "P02",
+            "quantity": 195,
+            "sales": 5,
+            "threshold": 10,
+            "totalQuantity": 200
+        },
+        {
+            "price": 250.0,
+            "productID": "P03",
+            "quantity": 98,
+            "sales": 2,
+            "threshold": 10,
+            "totalQuantity": 100
+        },
+        {
+            "price": 300.0,
+            "productID": "P04",
+            "quantity": 3,
+            "sales": 2,
+            "threshold": 5,
+            "totalQuantity": 5
+        },
+        {
+            "price": 400.0,
+            "productID": "P05",
+            "quantity": 4,
+            "sales": 1,
+            "threshold": 6,
+            "totalQuantity": 5
+        }
+    ],
+    "isActive": true,
+    "location": "Lahore",
+    "purchaseGraph": [
+        {
+            "edges": [
+                "P01",
+                "P02"
+            ],
+            "vertex": "P05"
+        },
+        {
+            "edges": [
+                "P05",
+                "P02",
+                "P04"
+            ],
+            "vertex": "P01"
+        },
+        {
+            "edges": [
+                "P05",
+                "P01"
+            ],
+            "vertex": "P02"
+        },
+        {
+            "edges": [
+                "P01",
+                "P03"
+            ],
+            "vertex": "P04"
+        },
+        {
+            "edges": [
+                "P04"
+            ],
+            "vertex": "P03"
+        }
+    ]
+}

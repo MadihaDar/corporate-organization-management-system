@@ -1,0 +1,130 @@
+{
+    "edges": [
+        {
+            "dest": 1,
+            "src": 0,
+            "weight": 10.0
+        },
+        {
+            "dest": 3,
+            "src": 0,
+            "weight": 100.0
+        },
+        {
+            "dest": 2,
+            "src": 1,
+            "weight": 50.0
+        },
+        {
+            "dest": 3,
+            "src": 1,
+            "weight": 20.0
+        },
+        {
+            "dest": 1,
+            "src": 3,
+            "weight": 50.0
+        },
+        {
+            "dest": 2,
+            "src": 3,
+            "weight": 200.0
+        }
+    ],
+    "history": [
+        {
+            "amount": 50.0,
+            "date": "2025-12-07",
+            "description": "Received BATCH-001 from Production",
+            "id": 1120,
+            "module": 1,
+            "traceId": "BATCH-001",
+            "type": "Expense"
+        },
+        {
+            "amount": 8000.0,
+            "date": "2025-12-07",
+            "description": "Sold BATCH-001 Units",
+            "id": 1131,
+            "module": 2,
+            "traceId": "BATCH-001",
+            "type": "Revenue"
+        },
+        {
+            "amount": 50.0,
+            "date": "2025-12-07",
+            "description": "Received BATCH-001 from Production",
+            "id": 1602,
+            "module": 1,
+            "traceId": "BATCH-001",
+            "type": "Expense"
+        },
+        {
+            "amount": 8000.0,
+            "date": "2025-12-07",
+            "description": "Sold BATCH-001 Units",
+            "id": 1613,
+            "module": 2,
+            "traceId": "BATCH-001",
+            "type": "Revenue"
+        },
+        {
+            "amount": 123.0,
+            "date": "2025-12-07",
+            "description": "123",
+            "id": 1624,
+            "module": 3,
+            "traceId": "BSA",
+            "type": "Revenue"
+        }
+    ],
+    "logs": [
+        {
+            "amount": 50.0,
+            "date": "2025-12-07",
+            "description": "Received BATCH-001 from Production",
+            "id": 1120,
+            "module": 1,
+            "traceId": "BATCH-001",
+            "type": "Expense"
+        },
+        {
+            "amount": 50.0,
+            "date": "2025-12-07",
+            "description": "Received BATCH-001 from Production",
+            "id": 1602,
+            "module": 1,
+            "traceId": "BATCH-001",
+            "type": "Expense"
+        },
+        {
+            "amount": 8000.0,
+            "date": "2025-12-07",
+            "description": "Sold BATCH-001 Units",
+            "id": 1131,
+            "module": 2,
+            "traceId": "BATCH-001",
+            "type": "Revenue"
+        },
+        {
+            "amount": 8000.0,
+            "date": "2025-12-07",
+            "description": "Sold BATCH-001 Units",
+            "id": 1613,
+            "module": 2,
+            "traceId": "BATCH-001",
+            "type": "Revenue"
+        },
+        {
+            "amount": 123.0,
+            "date": "2025-12-07",
+            "description": "123",
+            "id": 1624,
+            "module": 3,
+            "traceId": "BSA",
+            "type": "Revenue"
+        }
+    ],
+    "next_log_id": 1935,
+    "pending": []
+}
